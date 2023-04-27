@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #b8307c, #4a3f6c);
+    overflow: hidden;
+}
+.outer-container{
+    background-color: #fff;
+    width: 470px;
+    height: 450px;
+    padding: 70px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    font-family: "Yantramanav", sans-serif;
+}
+.converter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.app-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.app-icon{
+    width: 12.37em;
+}
+
+.app-title{
+    color: #46406c;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.swap{
+    align-self: flex-end;
+    padding: 55px;
+    margin-left: 20px;
+	margin-top:30px ;
+}
+
+.material-icons{
+	margin-left: 0px;
+}
+
+.custom-select{
+	width: 65%;
+	margin: 0px;
+	margin-top: -30px;
+	text-align:center;
+}
+
+select{
+    width: 353%;
+    text-align: center;
+    box-shadow: none;
+    height: 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-unit-type{
+	margin-top: 20px;
+	width
+}
+
+.Input-value, .Output-value{
+    display: inline-block;
+    margin-top: 1rem;
+    width: 200px;
+    height: 48px;
+    padding: 5px;
+    background-color: #ebebeb;
+    color: #848484;
+    font-size: 1.5rem;
+    border : none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    appearance: textfield;
+	
+}
+
+
+.output-unit-type{
+	margin-top: -155px;
+	width: 40px;
+	margin-left : 10px;
+}
+
+.input-value{
+	margin-left: -200px;
+	margin-top: 60px;
+}
+
+.output-value{
+	margin-top: -115px;
+	margin-left: -30px;
+}
+
+
+.input-unit-type select{
+	padding: 2%;
+    width: 200px;
+}
+.output-unit-type select{
+	padding: 2%;
+	width: 200px;
+}
